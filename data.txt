@@ -1,0 +1,523 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 970  of event 'cycles:uppp'
+# Event count (approx.): 298810812
+#
+# Children      Self  Command  Shared Object       Symbol                          
+# ........  ........  .......  ..................  ................................
+#
+    93.97%     0.40%  JX70     JX70                [.] cld_sub_mod_mp_cloud_jx_
+112377989 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;fjx_sub_mod_mp_blkslv_
+44378954 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_
+33201150 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_
+21092593 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memset
+11170465 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+9459548 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+8076403 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;__intel_avx_rep_memset
+7204779 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__libm_exp_l9
+4423646 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value
+4285489 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit
+1713298 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit
+1430695 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+1384479 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+1327053 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__interp_fmt
+1209292 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__next_array_element
+1184824 cld_sub_mod_mp_cloud_jx_
+1114008 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memcpy
+1024415 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memcpy
+918682 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+837307 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;__intel_avx_rep_memset
+787781 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf
+783959 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output;__errno_location
+686733 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;__intel_avx_rep_memcpy
+645113 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value
+613793 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__desc_ret_item
+577534 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+571176 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;process_existing_lub
+541279 cld_sub_mod_mp_cloud_jx_;for_write_seq_lis
+512565 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;0x7f;cvtas_t_to_a
+478866 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt
+444311 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;_intel_fast_memset.V
+421980 cld_sub_mod_mp_cloud_jx_;for_write_seq_lis;0x7ffc458c19ff;process_existing_lub
+420064 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+404619 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for__release_lun
+399009 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+377225 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+374558 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+369870 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__desc_ret_item
+362232 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;for__put_sf
+292586 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__interp_fmt
+276558 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun
+263422 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun
+253132 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+250499 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset.V
+231481 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for__format_value
+230419 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire
+206245 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;0x7ffc458c0e6f;process_existing_lub
+168006 cld_sub_mod_mp_cloud_jx_;_intel_fast_memset
+166545 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__format_value
+155007 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for_write_seq_fmt_xmit;cvt_ieee_t_to_text_ex
+152392 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;pthread_mutex_lock@plt
+137800 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit
+113376 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+104195 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_photo_jx_;for__format_value
+98142 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvtas_t_to_a
+90796 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit
+    92.79%    11.11%  JX70     JX70                [.] fjx_sub_mod_mp_photo_jx_
+112377989 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;fjx_sub_mod_mp_blkslv_
+44378954 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_
+33201150 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_
+21092593 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memset
+11170465 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+9459548 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+8076403 fjx_sub_mod_mp_photo_jx_;__intel_avx_rep_memset
+7204779 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__libm_exp_l9
+4423646 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value
+4285489 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit
+1713298 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit
+1430695 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+1384479 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+1327053 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__interp_fmt
+1209292 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__next_array_element
+1114008 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memcpy
+1024415 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memcpy
+918682 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+837307 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;__intel_avx_rep_memset
+787781 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf
+783959 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output;__errno_location
+686733 fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;__intel_avx_rep_memcpy
+645113 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value
+613793 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__desc_ret_item
+571176 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;process_existing_lub
+512565 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;0x7f;cvtas_t_to_a
+478866 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt
+444311 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;_intel_fast_memset.V
+420064 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+404619 fjx_sub_mod_mp_photo_jx_;for__release_lun
+399009 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+374558 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+369870 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__desc_ret_item
+362232 fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;for__put_sf
+292586 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__interp_fmt
+276558 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun
+263422 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun
+253132 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+250499 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset.V
+231481 fjx_sub_mod_mp_photo_jx_;for__format_value
+230419 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire
+206245 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;0x7ffc458c0e6f;process_existing_lub
+166545 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__format_value
+155007 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for_write_seq_fmt_xmit;cvt_ieee_t_to_text_ex
+152392 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;pthread_mutex_lock@plt
+113376 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+104195 fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_photo_jx_;for__format_value
+98142 fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvtas_t_to_a
+    62.54%    14.94%  JX70     JX70                [.] fjx_sub_mod_mp_opmie_
+112377989 fjx_sub_mod_mp_opmie_;fjx_sub_mod_mp_blkslv_
+44378954 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_
+21092593 fjx_sub_mod_mp_opmie_;__intel_avx_rep_memset
+7204779 fjx_sub_mod_mp_opmie_;__libm_exp_l9
+1114008 fjx_sub_mod_mp_opmie_;__intel_avx_rep_memcpy
+444311 fjx_sub_mod_mp_opmie_;_intel_fast_memset.V
+271098 0x39;fjx_sub_mod_mp_opmie_
+    37.61%    37.61%  JX70     JX70                [.] fjx_sub_mod_mp_blkslv_
+112377989 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;fjx_sub_mod_mp_blkslv_
+    16.16%     2.29%  JX70     JX70                [.] for_write_seq_fmt_xmit
+12712186 for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+9836773 for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+5827842 for_write_seq_fmt_xmit;for__format_value
+4285489 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit
+1713298 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit
+1633634 for_write_seq_fmt_xmit;for__next_array_element
+1619639 for_write_seq_fmt_xmit;for__interp_fmt
+1384479 for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+1282509 for_write_seq_fmt_xmit;for__desc_ret_item
+1024415 for_write_seq_fmt_xmit;for__format_value;_intel_fast_memcpy
+918682 for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+844406 for_write_seq_fmt_xmit;for__put_sf;for__write_output
+787781 for_write_seq_fmt_xmit;for__put_sf
+783959 for_write_seq_fmt_xmit;for__put_sf;for__write_output;__errno_location
+773567 for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+512565 for_write_seq_fmt_xmit;for__format_value;0x7f;cvtas_t_to_a
+471491 for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+325978 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for_write_seq_fmt_xmit
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit
+276558 for_write_seq_fmt_xmit;for__release_lun
+253132 for_write_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+250499 for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset.V
+155007 for_write_seq_fmt_xmit;for_write_seq_fmt_xmit;cvt_ieee_t_to_text_ex
+137800 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit
+98142 for_write_seq_fmt_xmit;for__format_value;cvtas_t_to_a
+90796 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit
+    11.50%     2.13%  JX70     JX70                [.] for__format_value
+12712186 for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+9836773 for__format_value;cvt_ieee_t_to_text_ex
+4423646 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value
+1384479 for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+1024415 for__format_value;_intel_fast_memcpy
+918682 for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+773567 for__format_value;cvt_integer_to_text
+759083 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value
+645113 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value
+512565 for__format_value;0x7f;cvtas_t_to_a
+471491 for__format_value;_intel_fast_memset
+250499 for__format_value;_intel_fast_memset.V
+231481 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for__format_value
+166545 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__format_value
+104195 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_photo_jx_;for__format_value
+98142 for__format_value;cvtas_t_to_a
+42455 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+    10.51%    10.51%  JX70     JX70                [.] __intel_avx_rep_memset
+21092593 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memset
+8076403 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;__intel_avx_rep_memset
+1384479 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+837307 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;__intel_avx_rep_memset
+     8.37%     3.34%  JX70     JX70                [.] cvt_ieee_t_to_text_ex
+12712186 cvt_ieee_t_to_text_ex;cvtas_t_to_a
+9459548 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+1384479 cvt_ieee_t_to_text_ex;__intel_avx_rep_memset
+918682 cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+377225 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex
+155007 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for_write_seq_fmt_xmit;cvt_ieee_t_to_text_ex
+     4.66%     0.00%  JX70     JX70                [.] MAIN__
+3426346 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+759083 MAIN__;for_write_seq_fmt_xmit;for__format_value
+668529 MAIN__;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+424342 MAIN__;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+424342 MAIN__;for_write_seq_fmt_xmit;for__next_array_element
+424342 MAIN__;for_write_seq_fmt;for__acquire_lun
+424342 MAIN__;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+424151 MAIN__;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+358115 MAIN__;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+346558 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+325978 MAIN__;for_write_seq_fmt;for_write_seq_fmt_xmit
+323445 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+311873 MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+298846 MAIN__;for_write_seq_fmt_xmit;for__desc_ret_item
+298846 MAIN__;for_write_seq_fmt_xmit
+298846 MAIN__;for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+295658 MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+295658 MAIN__;fjx_init_mod_mp_init_fjx_
+269662 MAIN__;for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+248678 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+218227 MAIN__;for_read_seq_fmt;for_read_seq_fmt_xmit
+216109 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+188816 MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+181089 MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+169226 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+159383 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+155311 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+139515 MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+50919 MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+47285 MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     4.54%     0.00%  JX70     JX70                [.] _start
+3426346 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+759083 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value
+668529 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__next_array_element
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun
+424342 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+424151 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+358115 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+346558 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+325978 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for_write_seq_fmt_xmit
+323445 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+311873 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__desc_ret_item
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+295658 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_
+269662 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+248678 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+218227 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt;for_read_seq_fmt_xmit
+216109 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+188816 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+181089 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+169226 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+159383 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+155311 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+139515 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+47285 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     4.54%     0.00%  JX70     libc-2.17.so        [.] __libc_start_main
+3426346 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+759083 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value
+668529 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+424342 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+424342 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__next_array_element
+424342 __libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun
+424342 __libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+424151 __libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+358115 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+346558 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+325978 __libc_start_main;main;MAIN__;for_write_seq_fmt;for_write_seq_fmt_xmit
+323445 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+311873 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+298846 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__desc_ret_item
+298846 __libc_start_main;main;MAIN__;for_write_seq_fmt_xmit
+298846 __libc_start_main;main;MAIN__;for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+295658 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_
+269662 __libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+248678 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+218227 __libc_start_main;main;MAIN__;for_read_seq_fmt;for_read_seq_fmt_xmit
+216109 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+188816 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+181089 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+169226 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+159383 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+155311 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+139515 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+47285 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 __libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     4.54%     0.00%  JX70     JX70                [.] main
+3426346 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+759083 main;MAIN__;for_write_seq_fmt_xmit;for__format_value
+668529 main;MAIN__;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+424342 main;MAIN__;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+424342 main;MAIN__;for_write_seq_fmt_xmit;for__next_array_element
+424342 main;MAIN__;for_write_seq_fmt;for__acquire_lun
+424342 main;MAIN__;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+424151 main;MAIN__;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+358115 main;MAIN__;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+346558 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+325978 main;MAIN__;for_write_seq_fmt;for_write_seq_fmt_xmit
+323445 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+311873 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+298846 main;MAIN__;for_write_seq_fmt_xmit;for__desc_ret_item
+298846 main;MAIN__;for_write_seq_fmt_xmit
+298846 main;MAIN__;for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+295658 main;MAIN__;fjx_init_mod_mp_init_fjx_
+269662 main;MAIN__;for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+248678 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+218227 main;MAIN__;for_read_seq_fmt;for_read_seq_fmt_xmit
+216109 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+188816 main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+181089 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+169226 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+159383 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+155311 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+139515 main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+47285 main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     4.54%     4.54%  JX70     JX70                [.] cvtas_t_to_a
+11170465 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+668529 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+577534 cld_sub_mod_mp_cloud_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+512565 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;0x7f;cvtas_t_to_a
+295658 MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+249232 cvtas_t_to_a
+98142 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvtas_t_to_a
+     3.58%     0.26%  JX70     JX70                [.] for_write_seq_fmt
+2130072 for_write_seq_fmt;for_write_seq_fmt_xmit
+1854846 for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+1327053 for_write_seq_fmt;for_write_seq_fmt_xmit;for__interp_fmt
+837307 for_write_seq_fmt;__intel_avx_rep_memset
+687764 for_write_seq_fmt;for__acquire_lun
+645113 for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value
+571176 for_write_seq_fmt;for__acquire_lun;process_existing_lub
+478866 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt
+374558 for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+369870 for_write_seq_fmt;for_write_seq_fmt_xmit;for__desc_ret_item
+311873 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+298846 for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+230419 for_write_seq_fmt;for__acquire_lun;for__resource_acquire
+209000 for_write_seq_fmt;for__format_value
+206245 for_write_seq_fmt;0x7ffc458c0e6f;process_existing_lub
+152392 for_write_seq_fmt;for__acquire_lun;for__resource_acquire;pthread_mutex_lock@plt
+     2.78%     0.10%  JX70     JX70                [.] fjx_init_mod_mp_init_fjx_
+3426346 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+346558 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+323445 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+311873 fjx_init_mod_mp_init_fjx_;for_write_seq_fmt
+295658 fjx_init_mod_mp_init_fjx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;cvtas_t_to_a
+295658 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_
+248678 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+216109 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+188816 fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+181089 fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+169226 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+159383 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+155311 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+139515 fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+50919 fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+47285 fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     2.55%     2.55%  JX70     JX70                [.] __libm_exp_l9
+7204779 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__libm_exp_l9
+415212 0x40362720ece61e5c;__libm_exp_l9
+     2.53%     0.66%  JX70     JX70                [.] for_read_seq_fmt_xmit
+4245734 for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1393789 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit
+388193 for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+346558 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit
+313520 for_read_seq_fmt_xmit;for__interp_fmt
+269662 for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+218227 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt;for_read_seq_fmt_xmit
+216109 for_read_seq_fmt_xmit;for__cvt_value
+159383 for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+     2.14%     0.00%  JX70     JX70                [.] for_read_seq_fmt
+3477265 for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+1612016 for_read_seq_fmt;for_read_seq_fmt_xmit
+323445 for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+313520 for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+248678 for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+216109 for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+169226 for_read_seq_fmt;for__get_s
+47285 for_read_seq_fmt;for__read_input
+     1.62%     0.07%  JX70     JX70                [.] for__cvt_value
+4245734 for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+388193 for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+216109 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value
+     1.55%     0.13%  JX70     JX70                [.] cvt_text_to_ieee_t_ex
+4245734 cvt_text_to_ieee_t_ex;cvtas_a_to_t
+248678 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+139515 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;for__cvt_value;cvt_text_to_ieee_t_ex
+     1.42%     1.42%  JX70     JX70                [.] cvtas_a_to_t
+3426346 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+424342 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+188816 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+155311 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+50919 MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+     1.28%     0.23%  JX70     JX70                [.] for__acquire_lun
+1854846 for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+571176 for__acquire_lun;process_existing_lub
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun
+323445 for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+263422 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun
+230419 for__acquire_lun;for__resource_acquire
+152392 for__acquire_lun;for__resource_acquire;pthread_mutex_lock@plt
+     0.95%     0.95%  JX70     [unknown]           [.] 0xffffffff91b6c4e7
+     0.93%     0.38%  JX70     JX70                [.] for__put_sf
+844406 for__put_sf;for__write_output
+787781 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf
+783959 for__put_sf;for__write_output;__errno_location
+362232 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;for__put_sf
+     0.91%     0.91%  JX70     JX70                [.] __intel_avx_rep_memcpy
+1114008 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;__intel_avx_rep_memcpy
+918682 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_ieee_t_to_text_ex;__intel_avx_rep_memcpy
+686733 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_lis;for_write_seq_lis_xmit;__intel_avx_rep_memcpy
+     0.75%     0.08%  JX70     JX70                [.] for__resource_acquire
+1854846 for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+230419 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire
+152392 for__resource_acquire;pthread_mutex_lock@plt
+     0.73%     0.18%  JX70     JX70                [.] for_write_seq_lis
+686733 for_write_seq_lis;for_write_seq_lis_xmit;__intel_avx_rep_memcpy
+541279 cld_sub_mod_mp_cloud_jx_;for_write_seq_lis
+421980 for_write_seq_lis;0x7ffc458c19ff;process_existing_lub
+362232 for_write_seq_lis;for_write_seq_lis_xmit;for__put_sf
+181089 for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+     0.65%     0.65%  JX70     JX70                [.] for__interp_fmt
+1327053 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__interp_fmt
+313520 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__interp_fmt
+292586 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__interp_fmt
+     0.62%     0.62%  JX70     libpthread-2.17.so  [.] pthread_mutex_lock
+1430695 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+424151 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;__GI___pthread_mutex_lock (inlined)
+     0.62%     0.00%  JX70     libpthread-2.17.so  [.] __GI___pthread_mutex_lock (inlined)
+1854846 __GI___pthread_mutex_lock (inlined)
+     0.55%     0.55%  JX70     JX70                [.] for__next_array_element
+1209292 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__next_array_element
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__next_array_element
+     0.54%     0.28%  JX70     JX70                [.] for__write_output
+783959 for__write_output;__errno_location
+424342 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+420064 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output
+     0.52%     0.23%  JX70     JX70                [.] for__release_lun
+703883 for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+404619 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for__release_lun
+276558 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun
+159383 for__release_lun;for__resource_release
+     0.45%     0.45%  JX70     JX70                [.] _intel_fast_memcpy
+1024415 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memcpy
+327843 _intel_fast_memcpy
+     0.43%     0.43%  JX70     JX70                [.] for__desc_ret_item
+613793 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__desc_ret_item
+369870 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__desc_ret_item
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__desc_ret_item
+     0.41%     0.00%  JX70     JX70                [.] for_write_seq_lis_xmit
+686733 for_write_seq_lis_xmit;__intel_avx_rep_memcpy
+362232 for_write_seq_lis_xmit;for__put_sf
+181089 for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+     0.40%     0.40%  JX70     JX70                [.] process_existing_lub
+571176 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;process_existing_lub
+421980 cld_sub_mod_mp_cloud_jx_;for_write_seq_lis;0x7ffc458c19ff;process_existing_lub
+206245 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;0x7ffc458c0e6f;process_existing_lub
+     0.40%     0.05%  JX70     JX70                [.] for__resource_release
+1027328 for__resource_release;__GI___pthread_mutex_unlock (inlined)
+159383 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt_xmit;for__release_lun;for__resource_release
+     0.34%     0.34%  JX70     libpthread-2.17.so  [.] pthread_mutex_unlock
+323445 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__acquire_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+269662 _start;__libc_start_main;main;MAIN__;for_read_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+253132 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+181089 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_write_seq_lis;for_write_seq_lis_xmit;for__release_lun;for__resource_release;__GI___pthread_mutex_unlock (inlined)
+     0.34%     0.00%  JX70     libpthread-2.17.so  [.] __GI___pthread_mutex_unlock (inlined)
+1027328 __GI___pthread_mutex_unlock (inlined)
+     0.26%     0.26%  JX70     libpthread-2.17.so  [.] __errno_location
+783959 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__put_sf;for__write_output;__errno_location
+     0.26%     0.26%  JX70     JX70                [.] cvt_integer_to_text
+399009 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+374558 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for_write_seq_fmt_xmit;for__format_value;cvt_integer_to_text
+     0.23%     0.23%  JX70     JX70                [.] _intel_fast_memset.V
+444311 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;fjx_sub_mod_mp_opmie_;_intel_fast_memset.V
+250499 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset.V
+     0.21%     0.21%  JX70     JX70                [.] _intel_fast_memset
+358115 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+168006 cld_sub_mod_mp_cloud_jx_;_intel_fast_memset
+113376 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt_xmit;for__format_value;_intel_fast_memset
+     0.17%     0.00%  JX70     [unknown]           [.] 0x000000000000007f
+512565 0x7f;cvtas_t_to_a
+     0.14%     0.00%  JX70     [unknown]           [.] 0x00007ffc458c19ff
+421980 0x7ffc458c19ff;process_existing_lub
+     0.14%     0.00%  JX70     [unknown]           [.] 0x40362720ece61e5c
+415212 0x40362720ece61e5c;__libm_exp_l9
+     0.11%     0.00%  JX70     JX70                [.] fjx_init_mod_mp_rd_xxx_
+188816 fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+50919 fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for_read_seq_fmt_xmit;for__cvt_value;cvt_text_to_ieee_t_ex;cvtas_a_to_t
+47285 fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+42455 fjx_init_mod_mp_rd_xxx_;for_write_seq_fmt;for__format_value
+     0.10%     0.10%  JX70     JX70                [.] for__characterize_LUB_buffer
+298846 _start;__libc_start_main;main;MAIN__;for_write_seq_fmt;for__flush_readahead;for__characterize_LUB_buffer
+     0.10%     0.00%  JX70     JX70                [.] for__flush_readahead
+298846 for__flush_readahead;for__characterize_LUB_buffer
+     0.09%     0.00%  JX70     [unknown]           [.] 0x0000000000000039
+271098 0x39;fjx_sub_mod_mp_opmie_
+     0.07%     0.00%  JX70     [unknown]           [.] 0x00007ffc458c0e6f
+206245 0x7ffc458c0e6f;process_existing_lub
+     0.06%     0.06%  JX70     JX70                [.] for__get_s
+169226 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;for_read_seq_fmt;for__get_s
+     0.05%     0.05%  JX70     JX70                [.] pthread_mutex_lock@plt
+152392 cld_sub_mod_mp_cloud_jx_;fjx_sub_mod_mp_photo_jx_;for_write_seq_fmt;for__acquire_lun;for__resource_acquire;pthread_mutex_lock@plt
+     0.02%     0.02%  JX70     JX70                [.] for__read_input
+47285 _start;__libc_start_main;main;MAIN__;fjx_init_mod_mp_init_fjx_;fjx_init_mod_mp_rd_xxx_;for_read_seq_fmt;for__read_input
+     0.00%     0.00%  JX70     libm-2.17.so        [.] __rint
+351 _start;_dl_start;_dl_sysdep_start;dl_main;_dl_relocate_object;__rint
+     0.00%     0.00%  JX70     ld-2.17.so          [.] _start
+351 _start;_dl_start;_dl_sysdep_start;dl_main;_dl_relocate_object;__rint
+     0.00%     0.00%  JX70     ld-2.17.so          [.] _dl_start
+351 _dl_start;_dl_sysdep_start;dl_main;_dl_relocate_object;__rint
+     0.00%     0.00%  JX70     ld-2.17.so          [.] _dl_sysdep_start
+351 _dl_sysdep_start;dl_main;_dl_relocate_object;__rint
+     0.00%     0.00%  JX70     ld-2.17.so          [.] dl_main
+351 dl_main;_dl_relocate_object;__rint
+     0.00%     0.00%  JX70     ld-2.17.so          [.] _dl_relocate_object
+351 _dl_relocate_object;__rint
+
+
+#
+# (Tip: List events using substring match: perf list <keyword>)
+#
